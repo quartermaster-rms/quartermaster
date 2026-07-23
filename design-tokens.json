@@ -1,0 +1,8 @@
+{ "$comment": "Shared UI tokens for all QUARTERMASTER apps (IMPLEMENTATION-GUIDE.md section 9). Light + dark palettes with identical semantic keys; every UI ships both, user-switchable, defaulting to the OS prefers-color-scheme. Dark keeps the light hues on dark surfaces.",
+  "color": {
+    "light": { "brand": "#1d4ed8", "brand_hover": "#1e40af", "brand_soft": "#eff4ff", "surface": "#ffffff", "surface_muted": "#f5f5f4", "text": "#1c1917", "text_muted": "#57534e", "success": "#15803d", "warning": "#b45309", "danger": "#b91c1c", "border": "#e7e5e4" },
+    "dark":  { "brand": "#3b82f6", "brand_hover": "#60a5fa", "brand_soft": "#172554", "surface": "#1c1917", "surface_muted": "#292524", "text": "#f5f5f4", "text_muted": "#a8a29e", "success": "#22c55e", "warning": "#f59e0b", "danger": "#ef4444", "border": "#44403c" }
+  },
+  "radius": { "control": "8px", "card": "12px" },
+  "space": [4, 8, 12, 16, 24, 32, 48],
+  "type": { "family": "Inter, system-ui, sans-serif", "scale": { "body": "16px", "h3": "18px", "h2": "20px", "h1": "24px" } } }
